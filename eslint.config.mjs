@@ -10,7 +10,7 @@ export default defineConfig([
     languageOptions: { globals: globals.browser },
     rules: {
       'no-console': 'warn',
-      'prefer-const': 'error'
+      'prefer-const': 'error',
     },
   },
   { files: ['**/*.js'], languageOptions: { sourceType: 'commonjs' } },
